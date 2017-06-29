@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">500 Scorekeeper</string>
+    <string name="teamA">Team A</string>
+    <string name="teamB">Team B</string>
+    <string name="plus">+</string>
+    <string name="price">Price</string>
+    <string name="quantity">Quantity</string>
+    <string name="zero_dollars">$0</string>
+</resources>
