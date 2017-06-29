@@ -20,6 +20,7 @@
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:orientation="vertical">
             <TextView
@@ -38,7 +39,7 @@
                 android:layout_below="@id/teamA_title"
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="16sp"
-                android:text="0"
+                android:text="@string/zero"
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
                 android:textSize="45sp" />
@@ -51,11 +52,12 @@
                 <EditText
                     android:id="@+id/teamA_input"
                     android:layout_width="56dp"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:inputType="numberSigned" />
                 <Button
                     android:layout_width="48dp"
                     android:layout_height="48dp"
-                    android:onClick="updateA"
+                    android:onClick="incrementA"
                     android:text="@string/plus" />
             </LinearLayout>
         </RelativeLayout>
@@ -65,6 +67,7 @@
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:orientation="vertical">
             <TextView
@@ -83,7 +86,7 @@
                 android:layout_below="@id/teamB_title"
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="16sp"
-                android:text="0"
+                android:text="@string/zero"
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
                 android:textSize="45sp" />
@@ -96,11 +99,12 @@
                 <EditText
                     android:id="@+id/teamB_input"
                     android:layout_width="56dp"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:inputType="numberSigned" />
                 <Button
                     android:layout_width="48dp"
                     android:layout_height="48dp"
-                    android:onClick="updateB"
+                    android:onClick="incrementB"
                     android:text="@string/plus" />
             </LinearLayout>
         </RelativeLayout>
@@ -114,6 +118,6 @@
         android:layout_below="@id/scores"
         android:layout_centerHorizontal="true"
         android:onClick="reset"
-        android:text="Reset" />
+        android:text="@string/reset" />
 
 </RelativeLayout>

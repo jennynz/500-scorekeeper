@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void updateA(View view) {
+    public void incrementA(View view) {
 
         // Get input view
         TextView inputTextView = (TextView) findViewById(R.id.teamA_input);
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         inputTextView.setText("");
     }
 
-    public void updateB(View view) {
+    public void incrementB(View view) {
 
         // Get input view
         TextView inputTextView = (TextView) findViewById(R.id.teamB_input);
