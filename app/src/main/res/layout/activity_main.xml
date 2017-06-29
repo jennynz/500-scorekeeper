@@ -121,13 +121,4 @@
 
     </RelativeLayout>
 
-    <!-- RESET -->
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/scores"
-        android:layout_centerHorizontal="true"
-        android:onClick="reset"
-        android:text="@string/reset" />
-
 </RelativeLayout>

@@ -1,8 +1,11 @@
 package com.jennynz.android.a500scorekeeper;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.KeyEvent;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
@@ -46,6 +49,26 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    // Options menu
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.options_menu, menu);
+        return true;
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.reset:
+                reset();
+                return true;
+            case R.id.help:
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
     public void incrementA(View view) {
         updateScore("A");
     }
@@ -54,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
         updateScore("B");
     }
 
-    public void reset(View view) {
+    private void reset() {
         teamA = 0;
         teamB = 0;
         TextView scoreTextViewA = (TextView) findViewById(R.id.teamA_score);
