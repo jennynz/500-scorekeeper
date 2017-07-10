@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import static android.text.TextUtils.isEmpty;
 
@@ -114,6 +115,17 @@ public class MainActivity extends AppCompatActivity {
 
         // Convert input string to integer
         int inputValue = Integer.parseInt(inputString);
+
+        // Validate that the input is less than or equal to the maximum possible score (520)
+        if (inputValue > 520) {
+            Toast.makeText(
+                    getApplicationContext(),
+                    "Woah, that's a lot of points!",
+                    Toast.LENGTH_SHORT
+            ).show();
+            inputTextView.setText("");
+            return;
+        }
 
         // Update score
         if (team.equals("A")) {
