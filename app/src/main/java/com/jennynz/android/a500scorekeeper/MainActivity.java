@@ -113,6 +113,17 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
+        // Check that no one's won yet
+        if ((teamA > 500) || (teamB > 50gt s0)) {
+            Toast.makeText(
+                    getApplicationContext(),
+                    "Looks like the game's already over... Click the options menu to reset.",
+                    Toast.LENGTH_SHORT
+            ).show();
+            inputTextView.setText("");
+            return;
+        }
+
         // Convert input string to integer
         int inputValue = Integer.parseInt(inputString);
 
