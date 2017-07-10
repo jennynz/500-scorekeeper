@@ -13,6 +13,9 @@ import android.widget.TextView;
 
 import static android.text.TextUtils.isEmpty;
 
+// Add to About page:
+// Playing card icons by Carin Marzaro from the Noun Project
+
 public class MainActivity extends AppCompatActivity {
 
     int teamA = 0;

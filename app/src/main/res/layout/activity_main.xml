@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -121,4 +121,387 @@
 
     </RelativeLayout>
 
-</RelativeLayout>
+    <!-- TABLE OF POINT VALUES -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/table_header_height"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/table_header_height"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:src="@drawable/spade" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/table_header_height"
+            android:padding="@dimen/cell_padding"
+            android:textAlignment="center"
+            android:src="@drawable/club" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/table_header_height"
+            android:padding="@dimen/cell_padding"
+            android:textAlignment="center"
+            android:src="@drawable/diamond" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/table_header_height"
+            android:padding="@dimen/cell_padding"
+            android:textAlignment="center"
+            android:src="@drawable/heart" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/table_header_height"
+            android:padding="@dimen/cell_padding"
+            android:textAlignment="center"
+            android:src="@drawable/no_trumps" />
+
+    </LinearLayout>
+
+    <!-- 6 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:fontFamily="sans-serif-medium"
+            android:text="6"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:text="40"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:text="60"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:text="80"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:text="100"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:text="120"/>
+
+    </LinearLayout>
+
+    <!-- 7 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:fontFamily="sans-serif-medium"
+            android:text="7"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:text="140"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:text="160"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:text="180"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:text="200"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:text="220"/>
+
+    </LinearLayout>
+
+    <!-- Closed Misere -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/cell_padding">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-medium"
+            android:text="Closed Misère"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="250 "/>
+
+    </LinearLayout>
+
+    <!-- 8 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:fontFamily="sans-serif-medium"
+            android:text="8"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:text="240"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:text="260"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:text="280"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:text="300"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:text="320"/>
+
+    </LinearLayout>
+
+    <!-- 9 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:fontFamily="sans-serif-medium"
+            android:text="9"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:text="340"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:text="360"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:text="380"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:text="400"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:text="420"/>
+
+    </LinearLayout>
+
+    <!-- 10 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:fontFamily="sans-serif-medium"
+            android:text="10"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:text="440"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:text="460"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:text="480"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:text="500"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/cell_padding"
+			android:textAlignment="center"
+            android:text="520" />
+
+    </LinearLayout>
+
+    <!-- Open Misere -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/cell_padding">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-medium"
+            android:text="Open Misère"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="500 "/>
+
+    </LinearLayout>
+
+</LinearLayout>
