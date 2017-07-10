@@ -1,5 +1,6 @@
 package com.jennynz.android.a500scorekeeper;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.KeyEvent;
@@ -13,9 +14,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import static android.text.TextUtils.isEmpty;
-
-// Add to About page:
-// Playing card icons by Carin Marzaro from the Noun Project
 
 public class MainActivity extends AppCompatActivity {
 
@@ -66,7 +64,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.reset:
                 reset();
                 return true;
-            case R.id.help:
+            case R.id.about:
+                Intent intent = new Intent(MainActivity.this, AboutActivity.class);
+                startActivity(intent);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         // Check that no one's won yet
-        if ((teamA > 500) || (teamB > 50gt s0)) {
+        if ((teamA > 500) || (teamB > 500)) {
             Toast.makeText(
                     getApplicationContext(),
                     "Looks like the game's already over... Click the options menu to reset.",

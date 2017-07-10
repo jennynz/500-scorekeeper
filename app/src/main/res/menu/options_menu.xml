@@ -3,6 +3,6 @@
         android:id="@+id/reset"
         android:title="@string/reset" />
     <item
-        android:id="@+id/help"
-        android:title="@string/help" />
+        android:id="@+id/about"
+        android:title="@string/about" />
 </menu>

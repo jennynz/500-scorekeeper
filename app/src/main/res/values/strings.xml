@@ -6,5 +6,5 @@
     <string name="plus">+</string>
     <string name="minus">-</string>
     <string name="reset">Reset</string>
-    <string name="help">Help</string>
+    <string name="about">About</string>
 </resources>
