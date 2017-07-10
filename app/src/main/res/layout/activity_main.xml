@@ -128,50 +128,50 @@
 
         <View
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="@dimen/table_header_height"
+            android:layout_weight="1"
 			android:padding="@dimen/cell_padding"
 			android:textAlignment="center" />
 
         <ImageView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="@dimen/table_header_height"
+            android:layout_weight="1"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:src="@drawable/spade" />
+			android:src="@drawable/spade"
+            android:textAlignment="center" />
 
         <ImageView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="@dimen/table_header_height"
+            android:layout_weight="1"
             android:padding="@dimen/cell_padding"
-            android:textAlignment="center"
-            android:src="@drawable/club" />
+            android:src="@drawable/club"
+            android:textAlignment="center" />
 
         <ImageView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="@dimen/table_header_height"
+            android:layout_weight="1"
             android:padding="@dimen/cell_padding"
-            android:textAlignment="center"
-            android:src="@drawable/diamond" />
+            android:src="@drawable/diamond"
+            android:textAlignment="center" />
 
         <ImageView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="@dimen/table_header_height"
+            android:layout_weight="1"
             android:padding="@dimen/cell_padding"
-            android:textAlignment="center"
-            android:src="@drawable/heart" />
+            android:src="@drawable/heart"
+            android:textAlignment="center" />
 
         <ImageView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="@dimen/table_header_height"
+            android:layout_weight="1"
             android:padding="@dimen/cell_padding"
-            android:textAlignment="center"
-            android:src="@drawable/no_trumps" />
+            android:src="@drawable/no_trumps"
+            android:textAlignment="center" />
 
     </LinearLayout>
 
@@ -182,52 +182,52 @@
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+			android:fontFamily="sans-serif-medium"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:fontFamily="sans-serif-medium"
-            android:text="6"/>
+            android:text="6"
+            android:textAlignment="center"/>
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:text="40"/>
+			android:text="40"
+            android:textAlignment="center"/>
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:text="60"/>
+			android:text="60"
+            android:textAlignment="center"/>
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:text="80"/>
+			android:text="80"
+            android:textAlignment="center"/>
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:text="100"/>
+			android:text="100"
+            android:textAlignment="center"/>
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:text="120"/>
+			android:text="120"
+            android:textAlignment="center"/>
 
     </LinearLayout>
 
@@ -238,52 +238,52 @@
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+			android:fontFamily="sans-serif-medium"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:fontFamily="sans-serif-medium"
-            android:text="7"/>
+            android:text="7"
+            android:textAlignment="center"/>
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:text="140"/>
+			android:text="140"
+            android:textAlignment="center"/>
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:text="160"/>
+			android:text="160"
+            android:textAlignment="center"/>
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:text="180"/>
+			android:text="180"
+            android:textAlignment="center"/>
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:text="200"/>
+			android:text="200"
+            android:textAlignment="center"/>
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:text="220"/>
+			android:text="220"
+            android:textAlignment="center"/>
 
     </LinearLayout>
 
@@ -295,18 +295,17 @@
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:textAlignment="center"
+            android:layout_weight="1"
             android:fontFamily="sans-serif-medium"
-            android:text="Closed Misère"/>
+            android:text="Closed Misère"
+            android:textAlignment="center"/>
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:text="250 "/>
+            android:layout_weight="1"
+            android:text="250" />
 
     </LinearLayout>
 
@@ -317,53 +316,53 @@
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+			android:fontFamily="sans-serif-medium"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:fontFamily="sans-serif-medium"
-            android:text="8"/>
+            android:text="8"
+            android:textAlignment="center"/>
 
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:text="240"/>
+			android:text="240"
+            android:textAlignment="center"/>
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:text="260"/>
+			android:text="260"
+            android:textAlignment="center"/>
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:text="280"/>
+			android:text="280"
+            android:textAlignment="center"/>
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:text="300"/>
+			android:text="300"
+            android:textAlignment="center"/>
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:text="320"/>
+			android:text="320"
+            android:textAlignment="center"/>
 
     </LinearLayout>
 
@@ -374,53 +373,53 @@
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+			android:fontFamily="sans-serif-medium"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:fontFamily="sans-serif-medium"
-            android:text="9"/>
+            android:text="9"
+            android:textAlignment="center"/>
 
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:text="340"/>
+			android:text="340"
+            android:textAlignment="center"/>
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:text="360"/>
+			android:text="360"
+            android:textAlignment="center"/>
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:text="380"/>
+			android:text="380"
+            android:textAlignment="center"/>
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:text="400"/>
+			android:text="400"
+            android:textAlignment="center"/>
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:text="420"/>
+			android:text="420"
+            android:textAlignment="center"/>
 
     </LinearLayout>
 
@@ -431,53 +430,53 @@
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+			android:fontFamily="sans-serif-medium"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:fontFamily="sans-serif-medium"
-            android:text="10"/>
+            android:text="10"
+            android:textAlignment="center"/>
 
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:text="440"/>
+			android:text="440"
+            android:textAlignment="center"/>
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:text="460"/>
+			android:text="460"
+            android:textAlignment="center"/>
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:text="480"/>
+			android:text="480"
+            android:textAlignment="center"/>
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:text="500"/>
+			android:text="500"
+            android:textAlignment="center"/>
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
 			android:padding="@dimen/cell_padding"
-			android:textAlignment="center"
-            android:text="520" />
+			android:text="520"
+            android:textAlignment="center" />
 
     </LinearLayout>
 
@@ -489,18 +488,17 @@
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:textAlignment="center"
+            android:layout_weight="1"
             android:fontFamily="sans-serif-medium"
-            android:text="Open Misère"/>
+            android:text="Open Misère"
+            android:textAlignment="center"/>
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:text="500 "/>
+            android:layout_weight="1"
+            android:text="500" />
 
     </LinearLayout>
 
